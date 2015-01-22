@@ -1,0 +1,27 @@
+.container{
+	color: #AAAAAA;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+.NFLoverview{
+	
+	background-image: url("http://static.wallpedes.com/wallpaper/best/best-player-seattle-seahawks-wallpaper-hd-wallpaper-seahawks-best-player-football-seattle-hd.jpg");
+	opacity: 0.2;
+	border-radius: 2%;
+}
+.teamList{
+	padding-top: 15px;
+	border-top: 5px solid #AAAAAA;
+}
+a{
+	color: #aaaaaa;
+}
+img{
+	padding-right: 15px;
+}
+.NFLteam{
+	padding-bottom: 10px;
+}
