@@ -1,5 +1,6 @@
+$("#pop").hide();
 var $currentTeam = $(".NFLteam:first-child");
-function stackThis() {
+function bubbleThis() {
   var teamNumbers = 16;
   var $nextTeam = $currentTeam.next();
   var currentRank = Number($currentTeam.attr("data-ranking"));
@@ -15,6 +16,19 @@ function stackThis() {
    $currentTeam = $(".NFLteam:first-child");
    teamNumbers--;
   }
-  setTimeout(stackThis, 200);
+  setTimeout(bubbleThis, 200);
+  $("#pop").show();
 }
-$("button").on("click", stackThis);
+$("#bubblify").on("click", bubbleThis);
+
+function popThis(){
+  var $lastTeam = $(".teamList p:last-child");
+    if($(".teamList p:only-child").length !== 1){
+      $lastTeam.detach().fadeOut("slow");
+    } else{
+    $(".NFLteam").append("<h1>YOU MAD BRO?</h1>");
+    }
+  // setTimeout(popThis, 300);
+}
+
+$("#pop").on("click", popThis);
