@@ -5,24 +5,18 @@ h1{
 	font-size: 50px;
 	text-align: center;
 }
-
 .NFLoverview{
-	background-color: #003366;
-	color: #BCDD11;
+	background-image: url("../images/Background-image.png");
+	color: #003366;
 	border-radius: 10px;
 	padding: 5px 10px 1px 10px;
 	margin-bottom: 5px;
 }
 .teamList{
-	border-top: 5px solid #AAAAAA;
+	border-top: 5px solid #BCDD11;
 	clear: both;
 	padding: 0;
 	margin: 0;
-}
-a{
-	font-size: 20px;
-	color: #aaaaaa;
-	text-align: right;
 }
 img{
 	padding-right: 15px;
@@ -30,7 +24,6 @@ img{
 .NFLteam{
 	border: 2px solid black;
 	margin: 10px auto;
-	width: 52%;
 	border-radius: 10px;
 }
 button{
