@@ -1,39 +1,34 @@
-.container{
-	color: #AAAAAA;
-}
-h1{
-	font-size: 50px;
-	text-align: center;
-}
-.NFLoverview{
-	background-image: url("../images/Background-image.png");
-	color: #003366;
-	border-radius: 10px;
-	padding: 5px 10px 1px 10px;
-	margin-bottom: 5px;
-}
-.teamList{
-	border-top: 5px solid #BCDD11;
-	clear: both;
-	padding: 0;
-	margin: 0;
-}
-img{
-	padding-right: 15px;
-}
-.NFLteam{
-	border: 2px solid black;
-	margin: 10px auto;
-	border-radius: 10px;
-}
-button{
-	display: block;
-	background-color: #003366;
-	color: #BCDD11;
-	margin: 10px auto 10px auto;
-}
-
-.scrutinized{
-	background-color: #003366;
-	color: #BCDD11;
-}
+	.container{
+		color: #AAAAAA;
+	}
+	h1{
+		font-size: 50px;
+		text-align: center;
+	}
+	.NFLoverview{
+		background-image: url("../images/Background-image.png");
+		color: #003366;
+		border-radius: 10px;
+		padding: 5px 10px 1px 10px;
+		margin-bottom: 5px;
+	}
+	.teamList{
+		border-top: 5px solid #BCDD11;
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+	img{
+		padding-right: 15px;
+	}
+	.NFLteam{
+		border: 2px solid black;
+		margin: 10px auto;
+		border-radius: 10px;
+	}
+	button{
+		display: block;
+		background-color: #003366;
+		color: #BCDD11;
+		margin: 10px auto 10px auto;
+	}
